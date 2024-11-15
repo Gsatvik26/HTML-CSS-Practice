@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    background-color: lightgrey;
+  }
+  *{
+    text-decoration:none;
+  }
+   .Close {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        font-size: 40px;
+        color: #D3D3D3;
+      }
+  #login-container {
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    /* border-radius: 8px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height:350px;
+    width: 500px;
+    position: fixed;
+  }
+  
+  #small{
+    fill:grey;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .envelope-symbol {
+    fill-color:black;
+    position: absolute;
+    left: 1px;
+    top: 7%;
+    width:30px;
+    height:33px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-align:center;
+    items-align:center;
+    text-align:center;
+    font-height:5%;
+    background-color:lightgrey;
+    border: 1px  grey;
+  }
+  
+  .unlock-symbol{
+    fill-color:black;
+    position: absolute;
+    left: 1.1px;
+    top: 45.5%;
+    width:30px;
+    height:33px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color:lightgrey;
+      border: 1px  grey;
+  }
+  
+  .input-line {
+    position: absolute;
+    left: 25px; 
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    width: calc(100% - 35px); 
+    background-color: #ccc;
+     margin-top: 0px;
+  }
+  hr {
+        border: 0;
+        height: 1px; 
+        background: rgba(0, 0, 0, 0.1);
+        margin: 20px 0; 
+      }
+  
+  .box {
+    padding-left: 30px; 
+    width: 200px;
+    height: 30px; 
+    margin-top: 0px;
+  }
+  #light {
+    color:grey;
+    font-size: smaller;
+    margin-top: 0; 
+  }
+  input[type="text"],
+  input[type="password"] {
+    padding-left: 30px;
+    width: 460px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius:4px;
+  }
+  input[type="checkbox"] {
+    appearance: none; 
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: lightgrey; 
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .margin{
+    margin-bottom: 5px;
+  }
+  .bottom{
+    text-align:right;
+  }
+  #bt1{
+    background-color:#7D7F7C;
+    align:right;
+    color:white;
+    border-radius:5px;
+    padding:8px 10px;
+    border:none;
+  }
+  #bt2{
+    corners:rounded;
+    background-color:#007FFF;
+    align:right;
+    color:white;
+    border-radius:5px;
+    padding:8px 10px;
+    border:none;
+  }
+  
+  

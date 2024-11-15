@@ -1,0 +1,51 @@
+.flexcontainer{
+    display:flex;
+    justify-content:space-around;
+    /* align-items:center; */
+  }
+  .box1, .box2, .box3, .box4 {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    background-color: #c9e2eb82;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box1 {
+    position: absolute;
+    left: 0px;
+  }
+  
+  .box2 {
+    position: absolute;
+    left: 120px;
+  }
+  
+  .box3 {
+    position: absolute;
+    right: 460px;
+  }
+  
+  .box4 {
+    position: absolute;
+    right: 340px;
+  }
+  .box1:hover{
+    background-color:red;
+  }
+  
+  .box2:hover{
+    background-color:blue;
+  }
+  
+  .box3:hover{
+    background-color:yellow;
+  }
+  
+  .box4:hover{
+    background-color:green;
+  }

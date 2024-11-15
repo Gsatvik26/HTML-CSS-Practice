@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <h3>Event Registration</h3>
+        <br><br>
+        <p>Would you be attending the XYZ event?</p>
+        <input type="radio" id="yes" name="choice" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="choice" value="no">
+        <label for="no">No</label>
+        <div id="choiceError" class="error"></div>
+        <br><br>
+        <label for="name">Name<span class="ast">*</span><br></label>
+        <pre><input type="text" class="box1" name="first_name">   <input type="text" class="box1" name="last_name"></pre>
+        <div id="nameError" class="error"></div>
+        <br>
+        <label for="email">Email<span class="ast">*</span><br></label>
+        <input type="email" class="box" name="email">
+        <div id="emailError" class="error"></div>
+        <br><br>
+        <label for="phone">Phone Number<span class="ast">*</span><br></label>
+        <input type="text" class="box" name="phone">
+        <div id="phoneError" class="error"></div>
+        <br><br>
+        <label for="guests">How many guests are you bringing?<span class="ast">*</span><br></label>
+        <input type="number" class="box" name="guests">
+        <div id="guestsError" class="error"></div>
+        <br><br>
+        <label for="event_date">Event Date<span class="ast">*</span><br></label>
+        <input type="date" class="box" id="event_date" name="event_date">
+        <div id="dateError" class="error"></div>
+        <br><br>
+        <label for="cuisine">Select Cuisine<span class="ast">*</span><br></label>
+        <select id="cuisine" class="box" name="cuisine">
+            <option value="">Select</option>
+            <option value="Indian">Indian</option>
+            <option value="mexican">Mexican</option>
+            <option value="chinese">Chinese</option>
+            <option value="Italian">Italian</option>
+        </select>
+        <div id="cuisineError" class="error"></div>
+        <br><br>
+        <button id="register">Register</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

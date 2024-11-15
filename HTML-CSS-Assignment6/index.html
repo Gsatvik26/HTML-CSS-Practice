@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body {
+            background-color: #89EABF;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:left;
+            margin-top: 20px;
+            gap: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            margin-bottom: 20px;
+            width: 30%; 
+            border: 8px solid black; 
+            box-sizing: border-box;
+        }
+        .gallery-item img {
+            width: 100%; 
+        }
+        .image-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 99%;
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: black; 
+            padding: 5px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                background-color: #89D4EA;
+            }
+            .gallery-item {
+                width: 45%; 
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            body {
+                background-color: #F3EEEE;
+            }
+            .gallery-item {
+                width: 90%; 
+                border-left-width: 70px; 
+                border-right-width: 70px; 
+                border-color: black; 
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Media Query Demo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quia voluptatum explicabo, facilis asperiores porro! Sequi necessitatibus veniam et in nesciunt molestias tempore aliquam, odio itaque deleniti id perspiciatis pariatur.
+    Rerum eos ea laboriosam fugiat quos natus accusantium doloribus vel quis, magni aut iste nulla molestiae asperiores suscipit molestias quas omnis et aperiam ducimus? Soluta, obcaecati reiciendis. Magni, at porro.
+    Excepturi, at libero dolorum facilis expedita rem eius earum iste fugit nesciunt fuga quaerat a odit error vitae quae accusamus amet atque pariatur. Quia quae tenetur mollitia labore sint iste.
+    Enim dolores sapiente quis! Saepe hic asperiores quia. Deserunt cumque quam ratione tempora aperiam corrupti, laborum aut accusantium esse voluptates mollitia ea commodi dolore voluptatem dicta repellat necessitatibus est ducimus.
+    Iure repellendus illum perspiciatis ullam veritatis tenetur quia accusantium saepe. Temporibus placeat debitis ut officia nostrum obcaecati error et nesciunt ad odio culpa esse hic blanditiis, autem, iste ipsum eos!</p><br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas explicabo autem in beatae unde reiciendis, eos dolorum ullam mollitia quo exercitationem quam optio voluptas ratione! Expedita labore amet ipsam optio!
+    Deleniti rem aperiam maxime deserunt doloribus et nam illo tenetur provident consequuntur unde, quisquam explicabo laborum culpa ea. Ducimus esse officia magnam. Atque labore qui nostrum numquam recusandae facilis vero!
+    Repellat pariatur numquam facere error recusandae aperiam at sequi eligendi adipisci quibusdam! Laboriosam unde doloribus odit molestiae non maxime? Reprehenderit in, doloremque repudiandae consectetur distinctio aut quos assumenda nostrum vel?</p>
+    <h2>Box Columns</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="C:\Users\srini\OneDrive\Desktop\Gradious-Assignments\HTML-CSS-Assignment6\images\image1.jpeg" alt="Image 1">
+            <div class="image-text">Image 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\srini\OneDrive\Desktop\Gradious-Assignments\HTML-CSS-Assignment6\images\image2.jpeg" alt="Image 2">
+            <div class="image-text">Image 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\srini\OneDrive\Desktop\Gradious-Assignments\HTML-CSS-Assignment6\images\image3.jpeg" alt="Image 3">
+            <div class="image-text">Image 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\srini\OneDrive\Desktop\Gradious-Assignments\HTML-CSS-Assignment6\images\image4.jpeg" alt="Image 4">
+            <div class="image-text">Image 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\srini\OneDrive\Desktop\Gradious-Assignments\HTML-CSS-Assignment6\images\image1.jpeg" alt="Image 5">
+            <div class="image-text">Image 5</div>
+        </div>
+        <!-- Add more gallery items as needed -->
+    </div>
+</body>
+</html>
